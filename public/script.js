@@ -1,6 +1,5 @@
-// ==========================================
 // LÓGICA DA POKÉAPI (MÉTODO GET)
-// ==========================================
+
 
 async function searchPokemon() {
 
@@ -60,9 +59,9 @@ async function searchPokemon() {
     }
 }
 
-// ==========================================
+
 // LÓGICA DA REQRES API (POST, PUT, DELETE)
-// ==========================================
+
 
 // URL Correta da API
 const REQRES_URL = 'https://reqres.in/api/users';
@@ -95,7 +94,7 @@ async function createTrainner() {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'x-api-key': 'reqres-free-v1' // <-- CORREÇÃO DA API KEY
+                'x-api-key': 'reqres-free-v1' 
             },
             body: JSON.stringify({ name: name, job: job})
         });
@@ -127,7 +126,7 @@ async function editTrainner() {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json',
-                'x-api-key': 'reqres-free-v1' // <-- CORREÇÃO DA API KEY
+                'x-api-key': 'reqres-free-v1' 
             },
             body: JSON.stringify({ name: nome, job: job })
         });
@@ -146,7 +145,7 @@ async function deleteTrainner() {
         const response = await fetch(`${REQRES_URL}/2`, {
             method: 'DELETE',
             headers: {
-                'x-api-key': 'reqres-free-v1' // <-- CORREÇÃO DA API KEY
+                'x-api-key': 'reqres-free-v1' 
             }
         });
 
