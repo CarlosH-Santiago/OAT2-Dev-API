@@ -66,5 +66,6 @@ Você precisa ter o [Node.js](https://nodejs.org/) instalado em sua máquina.
 
 -----
 
-**Aluno:** Caralos Henrique de Souza Santana Santiago
+**Alunos:** Caralos Henrique de Souza Santana Santiago; <br> Murillo dos Santos Marinho Ferreira
+<br>
 **Disciplina:** Desenvolvimento de APIs
